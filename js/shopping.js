@@ -18,7 +18,7 @@ function renderSearchItem(cart) {
       <td>${count}</td>
       <td>${totalPrice}</td>
       <td>
-        <div style="display: flex;">
+        <div id="tableBtn" style="display: flex;">
           <button
             type="button"
             onclick="addProduct('${item.id}')"

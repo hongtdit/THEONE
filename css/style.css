@@ -272,6 +272,25 @@ input:focus{
 .shopping-container {
   min-height: calc(100vh - 210px);
 }
+#myTable td{
+  text-align: center;
+}
+#tableBtn {
+  width: 50%;
+  margin: auto;
+}
+.container--total {
+  display: flex;
+  align-items: center;
+}
+.container--total p {
+  font-size: 32px;
+  margin-left: 900px;
+  font-weight: 600;
+}
+/* #price {
+  margin-left: 1100px;
+} */
 .price {
   font-weight: bold;
   font-size: 16px !important;

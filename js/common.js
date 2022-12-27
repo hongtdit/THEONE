@@ -2,6 +2,7 @@
 function addToCart(id) {
   const localUser = localStorage.getItem("user");
   if (localUser) {
+  
     // user đăng nhập mới có thể thêm sản phẩm vào giỏ
     const localCart = localStorage.getItem("cart") || "[]";
     const cart = JSON.parse(localCart);
@@ -11,8 +12,11 @@ function addToCart(id) {
       element.textContent = cart.length;
       localStorage.setItem("cart", JSON.stringify(cart));
     }
+   
   }
-
+  else{
+    alert("Vui lòng đăng nhập trước khi thao tác");
+  }
 }
 
 // hiển thị số lượng sản phẩm trên giỏ hàng

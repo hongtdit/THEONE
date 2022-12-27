@@ -7,6 +7,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Apple",
     image: "./img/product01.png",
+    love:true,
     description:
       'Thiết kế của Apple Smart thừa hưởng nhiều nét tương đồng với "người anh" Apple Watch S6 nhưng các góc cạnh được vát tròn mềm mại hơn mang đến cho người đeo cảm giác thanh lịch nhưng không kém phần năng động. Chiếc smartwatch thế hệ thứ 7 được nhà Táo trang bị màn hình OLED 1.61 inch với viền màn hình mỏng hơn 40%, nâng diện tích màn hình lên 20% và nội dung hiển thị trên màn hình cũng nhiều hơn 50% so với thế hệ cũ.',
   },
@@ -17,6 +18,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Apple",
     image: "./img/product02.png",
+    love:true,
     description:
       'Thiết kế của Apple Smart thừa hưởng nhiều nét tương đồng với "người anh" Apple Watch S6 nhưng các góc cạnh được vát tròn mềm mại hơn mang đến cho người đeo cảm giác thanh lịch nhưng không kém phần năng động. Chiếc smartwatch thế hệ thứ 7 được nhà Táo trang bị màn hình OLED 1.61 inch với viền màn hình mỏng hơn 40%, nâng diện tích màn hình lên 20% và nội dung hiển thị trên màn hình cũng nhiều hơn 50% so với thế hệ cũ.',
   },
@@ -27,6 +29,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Apple",
     image: "./img/product03.png",
+    love:true,
     description:
       'Thiết kế của Apple Smart thừa hưởng nhiều nét tương đồng với "người anh" Apple Watch S6 nhưng các góc cạnh được vát tròn mềm mại hơn mang đến cho người đeo cảm giác thanh lịch nhưng không kém phần năng động. Chiếc smartwatch thế hệ thứ 7 được nhà Táo trang bị màn hình OLED 1.61 inch với viền màn hình mỏng hơn 40%, nâng diện tích màn hình lên 20% và nội dung hiển thị trên màn hình cũng nhiều hơn 50% so với thế hệ cũ.',
   },
@@ -37,6 +40,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Apple",
     image: "./img/product04.png",
+    love:true,
     description:
       'Thiết kế của Apple Smart thừa hưởng nhiều nét tương đồng với "người anh" Apple Watch S6 nhưng các góc cạnh được vát tròn mềm mại hơn mang đến cho người đeo cảm giác thanh lịch nhưng không kém phần năng động. Chiếc smartwatch thế hệ thứ 7 được nhà Táo trang bị màn hình OLED 1.61 inch với viền màn hình mỏng hơn 40%, nâng diện tích màn hình lên 20% và nội dung hiển thị trên màn hình cũng nhiều hơn 50% so với thế hệ cũ.',
   },
@@ -47,6 +51,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Apple",
     image: "./img/product01.png",
+    love:true,
     description:
       'Thiết kế của Apple Smart thừa hưởng nhiều nét tương đồng với "người anh" Apple Watch S6 nhưng các góc cạnh được vát tròn mềm mại hơn mang đến cho người đeo cảm giác thanh lịch nhưng không kém phần năng động. Chiếc smartwatch thế hệ thứ 7 được nhà Táo trang bị màn hình OLED 1.61 inch với viền màn hình mỏng hơn 40%, nâng diện tích màn hình lên 20% và nội dung hiển thị trên màn hình cũng nhiều hơn 50% so với thế hệ cũ.',
   },
@@ -57,6 +62,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Samsung",
     image: "./img/product05.png",
+    love:true,
     description:
       "Đồng hồ Samsung Watch Pro không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -67,6 +73,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Samsung",
     image: "./img/product02.png",
+    love:true,
     description:
       "Đồng hồ Samsung Watch Pro không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -77,6 +84,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Samsung",
     image: "./img/product03.png",
+    love:true,
     description:
       "Đồng hồ Samsung Watch Pro không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -87,6 +95,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Samsung",
     image: "./img/product01.png",
+    love:true,
     description:
       "Đồng hồ Samsung Watch Pro không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -97,6 +106,7 @@ const PRODUCTS = [
     star: 4,
     brand: "Xiaomi",
     image: "./img/product02.png",
+    love:true,
     description:
       "Đồng hồ Xiaomi Watch không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -107,6 +117,7 @@ const PRODUCTS = [
     star: 5,
     brand: "Xiaomi",
     image: "./img/product04.png",
+    love:true,
     description:
       "Đồng hồ Xiaomi Watch không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -117,6 +128,7 @@ const PRODUCTS = [
     star: 4,
     brand: "Xiaomi",
     image: "./img/product03.png",
+    love:true,
     description:
       "Đồng hồ Xiaomi Watch không có nhiều thay đổi về mặt thiết kế so với thế hệ trước, vẫn là mặt đồng hồ tròn được vát phẳng hài hòa kết hợp khung viền hợp kim nhôm cứng cáp, tạo cảm giác năng động cùng sự hiện đại khi đeo trên tay. Samsung cũng đã thay thế chất liệu kính cường lực bằng kính Sapphire cho thế hệ Watch5 giúp tăng độ cứng cáp cho màn hình, hạn chế nứt vỡ, trầy xước trong quá trình sử dụng.",
   },
@@ -140,11 +152,22 @@ function renderProducts(list) {
         <p class="price">${item.price}$</p>
         <div class="product-action">
             <div class="add-to-cart" onclick="addToCart('${item.id}')">Add to cart</div>
-            <div class="add-to-favorite">Add to favorite</div>
+            <div class="add-to-favorite" id="heart${i}" onclick="setHeart(${i})">Add to favorite</div>
         </div>
       </div>`;
     textHTML += data;
+    for (let i = 0; i < PRODUCTS.length; i++) {
+      if(PRODUCTS[i].love===true)
+          {        
+              var heart = document.getElementById(`heart${i}`);
+              heart.style.backgroundColor = "red";
+          }
+  }
   });
+  function setHeart(i){
+    PRODUCTS[i].love=!PRODUCTS[i].love;
+    renderProducts(); 
+}
 
   element.innerHTML = textHTML;
 }

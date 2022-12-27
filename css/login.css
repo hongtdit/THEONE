@@ -66,9 +66,10 @@ header p {letter-spacing: 0.05em;}
 }
 
 #eye {
-    background: #fff;
+    /* background: #a1abbe; */
     color: #333;
-  
+    
+
     margin: 5.9px 0 0 0;
     margin-left: -20px;
     padding: 15px 9px 19px 0px;
@@ -84,7 +85,7 @@ header p {letter-spacing: 0.05em;}
 }
 
 input[class="form-input"]{
-    width: 240px;
+    width: 250px;
     height: 50px;
   
     margin-top: 2%;
@@ -92,7 +93,7 @@ input[class="form-input"]{
     
     font-size: 16px;
     font-family: 'Abel', sans-serif;
-    color: #5E6472;
+    color: #8c929f;
   
     outline: none;
     border: none;
@@ -136,10 +137,19 @@ button {
     margin-left: 2%;
 }
 
-.frgt-pass {background: transparent;}
+.frgt-pass {background: pink;
+border-radius: 5px;
+text-align: center;}
+
 
 /*     Sign Up button  */
-.sign-up {background: #B8F2E6;}
+.sign-up {background:pink;
+width: 80px;
+height: 41.3px;
+text-align: center;
+border-radius: 5px;
+margin-left: 23px;}
+
 
 /* buttons hover */
 button:hover {
